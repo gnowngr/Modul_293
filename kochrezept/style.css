@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    background-color: #fdf6e3;
+    color: #333333;
+    padding: 16px;
+    line-height: 1.6;
+  }
+  
+  h1, h2 {
+    color: #f04410;
+    margin-top: 24px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  img {
+    margin-top: 16px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  a {
+    color: #3767c6;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

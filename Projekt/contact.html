@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffeely – Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="bean-bg"></div>
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Coffeely</a>
+      <button id="nav-toggle" aria-label="Open navigation">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="about-project-section">
+      <div class="container">
+        <h1>About This Project</h1>
+        <p>This website was created as part of a web development project assignment. My goal was to design and build a modern, responsive webshop for luxury coffee beans using only HTML, CSS, and JavaScript, without any frameworks. All features, design, and code were implemented by me as the project creator.</p>
+      </div>
+    </section>
+    <section class="contact-section">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="contact-name">Name</label>
+            <input type="text" id="contact-name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Email</label>
+            <input type="email" id="contact-email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="contact-subject">Subject</label>
+            <select id="contact-subject" name="subject" required>
+              <option value="General Inquiry">General Inquiry</option>
+              <option value="Order Support">Order Support</option>
+              <option value="Product Question">Product Question</option>
+              <option value="Feedback">Feedback</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div id="contact-success" class="form-success" style="display:none;">Thank you for your message!</div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="agb.html">Terms</a> |
+        <a href="datenschutz.html">Privacy Policy</a> |
+        <a href="impressum.html">Imprint</a>
+      </div>
+      <p>&copy; 2025 Coffeely. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <div class="mobile-nav-overlay"></div>
+</body>
+</html> 

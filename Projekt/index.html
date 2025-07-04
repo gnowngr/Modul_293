@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffeely – Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Coffeely</a>
+      <button id="nav-toggle" aria-label="Open navigation">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Discover Exceptional Coffee Beans</h1>
+        <p>Handpicked, roasted, and delivered fresh to your door.</p>
+        <a href="products.html" class="btn hero-discover-btn">Discover All</a>
+      </div>
+    </section>
+    <section class="products-preview">
+      <div class="container">
+        <h2>New & Popular</h2>
+        <div class="grid products-grid">
+          <!-- Product cards will be rendered by JS -->
+        </div>
+      </div>
+    </section>
+    <section class="categories-overview">
+      <div class="container">
+        <h2>Categories</h2>
+        <div class="grid categories-grid">
+          <a class="category-card" href="products.html?category=single-origin">Single Origin</a>
+          <a class="category-card" href="products.html?category=blends">Blends</a>
+          <a class="category-card" href="products.html?category=espresso">Espresso</a>
+          <a class="category-card" href="products.html?category=decaf">Decaf</a>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter">
+      <div class="container">
+        <h2>Stay Updated</h2>
+        <p>Sign up for our newsletter to get the latest on new beans and special offers.</p>
+        <form id="newsletter-form">
+          <input type="email" placeholder="Your email address" required>
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+        <div id="newsletter-success" class="form-success" style="display:none;">Thank you for subscribing!</div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="agb.html">Terms</a> |
+        <a href="datenschutz.html">Privacy Policy</a> |
+        <a href="impressum.html">Imprint</a>
+      </div>
+      <p>&copy; 2025 Coffeely. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <div class="mobile-nav-overlay"></div>
+</body>
+</html> 

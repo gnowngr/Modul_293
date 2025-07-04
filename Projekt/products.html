@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffeely – Products</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Coffeely</a>
+      <button id="nav-toggle" aria-label="Open navigation">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="products-list">
+      <div class="container">
+        <h1>Our Coffee Beans</h1>
+        <div class="filter-bar">
+          <label for="category-filter">Filter by category:</label>
+          <select id="category-filter">
+            <option value="all">All</option>
+            <option value="single-origin">Single Origin</option>
+            <option value="blends">Blends</option>
+            <option value="espresso">Espresso</option>
+            <option value="decaf">Decaf</option>
+          </select>
+        </div>
+        <div class="grid products-grid" id="products-grid">
+          <!-- Products will be rendered by JS for filtering -->
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="agb.html">Terms</a> |
+        <a href="datenschutz.html">Privacy Policy</a> |
+        <a href="impressum.html">Imprint</a>
+      </div>
+      <p>&copy; 2025 Coffeely. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <div class="mobile-nav-overlay"></div>
+</body>
+</html> 
