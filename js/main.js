@@ -108,7 +108,10 @@ const products = [
     price: 14.29,
     author: "Liam Beansmith"
   }
-];
+].map(p => ({
+  ...p,
+  price: Math.round(p.price * 20) / 20
+}));
 
 // PRODUCTS PAGE: Render products and filter
 function renderProductsGrid(filter = "all") {
@@ -157,11 +160,39 @@ function getProductIdFromUrl() {
   const params = new URLSearchParams(window.location.search);
   return parseInt(params.get("id"));
 }
+
+function renderBreadcrumb(product, notFound = false) {
+  const container = document.createElement('div');
+  container.className = 'container';
+  const breadcrumb = document.createElement('nav');
+  breadcrumb.className = 'breadcrumb';
+  breadcrumb.setAttribute('aria-label', 'breadcrumb');
+  let current = notFound ? 'Product not found' : (product ? product.name : 'Product');
+  breadcrumb.innerHTML = `
+    <a href="products.html">Products</a>
+    <span class="breadcrumb-sep">›</span>
+    <span class="current">${current}</span>
+  `;
+  container.appendChild(breadcrumb);
+  return container;
+}
+
 function renderProductDetail() {
   const detail = document.getElementById("product-detail");
   if (!detail) return;
   const id = getProductIdFromUrl();
   const product = products.find(p => p.id === id);
+  // Remove any existing breadcrumb
+  let oldBreadcrumb = document.querySelector('.breadcrumb');
+  if (oldBreadcrumb && oldBreadcrumb.parentNode.classList.contains('container')) {
+    oldBreadcrumb.parentNode.remove();
+  }
+  // Insert breadcrumb above product detail, wrapped in .container
+  if (product) {
+    detail.parentNode.insertBefore(renderBreadcrumb(product), detail);
+  } else {
+    detail.parentNode.insertBefore(renderBreadcrumb(null, true), detail);
+  }
   if (!product) {
     detail.innerHTML = '<p>Product not found.</p>';
     return;
