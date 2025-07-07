@@ -27,6 +27,7 @@ Für dieses Projekt wurde Künstliche Intelligenz für folgende Zwecke verwendet
 - **Animation:** Die Animation der fallenden Kaffeebohnen wurde mit Unterstützung von KI (Cursor) umgesetzt, um eine moderne und performante Lösung zu gewährleisten.
 - **Funktionen:** Kleinere Funktionen wie Terms, Privacy Policy und Imprint wurden mit ChatGPT generiert
 - **Testing:** White- und Blackbox-Sicherheitstests, sowie Prüfung der Rechtschreibung von README und Styleguide wurden ebenfalls von Cursor durchgeführt
+- **Mockup:** Das Mockup habe ich mit Google-Stitch erstellt, in Figma inportiert und dies dann als Inspriration genutzt
 
 
 ## Projektstruktur
