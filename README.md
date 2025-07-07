@@ -17,7 +17,7 @@ Coffeely bietet eine Plattform, auf der Nutzer verschiedene Kaffeesorten entdeck
 
 ## Tech Stack
 - **HTML5:** Strukturierung aller Seiten und Inhalte.
-- **CSS3:** Modernes, variables Design mit Custom Properties (Variablen), flexiblen Einheiten (vw, clamp) und Media Queries für verschiedene Bildschirmgrößen.
+- **CSS3:** Modernes, variables Design mit Custom Properties (Variablen), flexiblen Einheiten (vw, clamp) und Media Queries für verschiedene Bildschirmgrössen.
 - **Vanilla JavaScript:** Dynamische Funktionen wie Produktfilter, Rendering der Produktdaten, Animationen, Formularvalidierung und Navigation.
 
 ## Hinweis zur KI-Nutzung
@@ -37,42 +37,6 @@ Alle weiteren Inhalte, Struktur und Logik wurden eigenständig entwickelt und um
 - **js/main.js:** Haupt-JavaScript für Rendering, Filter, Animationen und Formularlogik.
 - **img/:** Ordner mit allen verwendeten Bildern (AI-generiert und für Web optimiert).
 
-## Styleguide
-
-### Farben
-- **Hintergrund:** #f8f7ea – Sanftes, warmes Beige für eine freundliche Grundstimmung.
-- **Text:** #222 – Sehr dunkles Grau für optimale Lesbarkeit.
-- **Akzent:** #bfa980 – Goldener Akzentton für Buttons, Links und Highlights.
-- **Karten-Hintergrund:** #fff – Reines Weiß für Produktkarten und Container.
-- **Rahmen:** #e0ded9 – Dezente Rahmenfarbe für Abgrenzungen.
-- **Button-Hintergrund:** #bfa980 – Akzentfarbe für Standard-Buttons.
-- **Button-Text:** #fff – Weiß für Text auf Buttons.
-
-### Schriften
-- **Hauptschrift (Überschriften):** 'Georgia', serif – Für einen hochwertigen, klassischen Look.
-- **UI-Schrift (Fließtext, Navigation):** 'Inter', Arial, sans-serif – Modern, klar und gut lesbar.
-
-### Buttons
-- Groß, mit abgerundeten Ecken (ausser Hero-Button: rechteckig)
-- Standard: Akzentfarbe mit weisser Schrift, invertiert beim Hover (Hintergrund wird weiß, Text und Rahmen Akzentfarbe)
-- Hero-Button: Weiss mit Akzent-Rand und -Text, invertiert beim Hover (Hintergrund Akzent, Text weiß)
-- Buttons sind immer klar als interaktive Elemente erkennbar und haben ausreichend Abstand zu anderen Elementen.
-
-### Abstände & Layout
-- Grosszügige Abstände und Padding für eine moderne, luftige Optik und gute Lesbarkeit.
-- Grid-Layout für Produktübersicht und Kategorien, das sich dynamisch an die Bildschirmgröße anpasst.
-- Karten mit Schatten und abgerundeten Ecken für Tiefe und visuelle Trennung.
-
-### Responsive Design
-- Mehrere Breakpoints für Desktop, Tablet und Mobile.
-- Einsatz von fluiden Einheiten wie vw (viewport width) und clamp() für Schriftgrößen und Abstände, um ein flexibles, modernes Layout zu gewährleisten.
-- Navigation wechselt auf Mobilgeräten zu einem Hamburger-Menü.
-
-### Sonstiges
-- Animierter Contactpage-Hintergrund mit fallenden Kaffeebohnen (SVG/PNG), der subtil und nicht ablenkend gestaltet ist.
-- Produktbilder sind nicht auswählbar oder ziehbar, um ein sauberes Nutzererlebnis zu gewährleisten.
-- Alle interaktiven Elemente sind barrierearm und mit Fokus-Styles versehen.
-
 ---
 
-**Hinweis:** Dieses Projekt wurde im Rahmen eines Webentwicklungsprojekts erstellt und dient ausschließlich zu Lern- und Demonstrationszwecken. Für Fragen oder Feedback stehe ich gerne zur Verfügung.
+**Hinweis:** Dieses Projekt wurde im Rahmen eines Webentwicklungsprojekts erstellt und dient ausschliesslich zu Lern- und Demonstrationszwecken. Für Fragen oder Feedback stehe ich gerne zur Verfügung.
