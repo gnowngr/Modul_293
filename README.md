@@ -25,8 +25,8 @@ Für dieses Projekt wurde Künstliche Intelligenz für folgende Zwecke verwendet
 - **Bildgenerierung:** Alle Produktbilder wurden mit Google Imagen erstellt, um ein einheitliches, hochwertiges Erscheinungsbild zu gewährleisten.
 - **Styling/Code-Assistenz:** Für das Styling und die Code-Unterstützung wurde Cursor (AI Coding Assistant) genutzt. Dies betrifft insbesondere die Entwicklung von CSS-Layouts, Responsiveness und UI-Komponenten.
 - **Animation:** Die Animation der fallenden Kaffeebohnen wurde mit Unterstützung von KI (Cursor) umgesetzt, um eine moderne und performante Lösung zu gewährleisten.
-- **Funktionen:** Kleinere Funktionen wie Terms, Privacy Policy und Imprint
-- **Testing:** White- und Blackbox-Sicherheitstests, sowie Prüfung der Rechtschreibung von README und Styleguide
+- **Funktionen:** Kleinere Funktionen wie Terms, Privacy Policy und Imprint wurden mit ChatGPT generiert
+- **Testing:** White- und Blackbox-Sicherheitstests, sowie Prüfung der Rechtschreibung von README und Styleguide wurden ebenfalls von Cursor durchgeführt
 
 
 ## Projektstruktur
