@@ -38,6 +38,19 @@ Für dieses Projekt wurde Künstliche Intelligenz für folgende Zwecke verwendet
 - **js/main.js:** Haupt-JavaScript für Rendering, Filter, Animationen und Formularlogik.
 - **img/:** Ordner mit allen verwendeten Bildern (AI-generiert und für Web optimiert).
 
+
+## Fazit
+
+Am Anfang hatte ich nur eine grobe Idee: ein schlichter Webshop für Kaffee, der modern aussieht und auf allen Geräten funktioniert. Was daraus geworden ist, hat meine Erwartungen ehrlich gesagt übertroffen.
+
+Ich habe viel über sauberen Code, Layout-Struktur und Responsive Design gelernt, vor allem dadurch, dass ich alles ohne Frameworks gebaut habe. Das hat zwar Zeit gekostet, aber mir geholfen, die Zusammenhänge besser zu verstehen. Besonders viel Spass gemacht hat mir das Feintuning beim Styling, und die kleine Animation mit den fallenden Kaffeebohnen war ein persönliches Highlight.
+
+Ich bin überzeugt, dass künftig jede Person in der Informatik regelmässig mit KI arbeiten wird. Dieses Projekt hat mir geholfen, mich darauf vorzubereiten, vor allem im Hinblick darauf, wie KI gezielt zur Ergänzung und Unterstützung bei der Umsetzung eigener Ideen eingesetzt werden kann.
+
+Insgesamt war Coffeely mehr als nur ein Lernprojekt, es war ein Prozess, bei dem ich kreativ arbeiten, Probleme lösen und mich technisch weiterentwickeln konnte. Ich bin stolz auf das Ergebnis.
+
+
 ---
+
 
 **Hinweis:** Dieses Projekt wurde im Rahmen eines Webentwicklungsprojekts erstellt und dient ausschliesslich zu Lern- und Demonstrationszwecken. Für Fragen oder Feedback stehe ich gerne zur Verfügung.
