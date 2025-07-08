@@ -10,7 +10,7 @@ Coffeely bietet eine Plattform, auf der Nutzer verschiedene Kaffeesorten entdeck
 
 - **Startseite:** Übersichtliche Präsentation der neuesten oder beliebtesten Produkte im Hero-Bereich. Darunter eine Vorschau auf ausgewählte Produkte und eine Übersicht aller Kategorien (z.B. Single Origin, Blends, Espresso, Decaf). Ein Newsletter-Formular lädt zum Abonnieren ein.
 - **Produktübersicht:** Alle Produkte werden in einem responsiven Grid-Layout mit Vorschaubild, Titel, Beschreibung und Preis angezeigt. Ein Filter ermöglicht die Auswahl nach Kategorie.
-- **Produktdetailseite:** Detaillierte Ansicht eines Produkts mit großem Bild, Beschreibung, Preis, Autor und "Buy Now"-Button. Die Seite ist übersichtlich und für mobile Geräte optimiert.
+- **Produktdetailseite:** Detaillierte Ansicht eines Produkts mit grossem Bild, Beschreibung, Preis, Autor und "Buy Now"-Button. Die Seite ist übersichtlich und für mobile Geräte optimiert.
 - **Kontaktseite:** Kontaktformular für Anfragen sowie eine kurze Projektbeschreibung. Das Formular ist responsiv und barrierearm gestaltet.
 - **Newsletter:** Einfaches Formular zur Anmeldung für den Newsletter, mit Erfolgsmeldung nach dem Absenden.
 - **Falling Beans Animation:** Subtile, animierte Kaffeebohnen, die im Hintergrund der Kontaktseite nach unten fallen und für eine besondere Atmosphäre sorgen.
